@@ -1,7 +1,7 @@
 package com.inventorycheck.security.config;
 
 
-import com.inventorycheck.userlogin.UserLoginService;
+import com.inventorycheck.service.UserLoginService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

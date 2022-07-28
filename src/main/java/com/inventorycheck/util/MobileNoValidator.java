@@ -1,4 +1,4 @@
-package com.inventorycheck.registration;
+package com.inventorycheck.util;
 
 import org.springframework.stereotype.Service;
 import org.springframework.util.NumberUtils;

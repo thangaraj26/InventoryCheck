@@ -1,4 +1,4 @@
-package com.inventorycheck.security;
+package com.inventorycheck.security.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

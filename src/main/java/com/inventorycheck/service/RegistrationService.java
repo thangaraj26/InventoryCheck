@@ -1,9 +1,10 @@
-package com.inventorycheck.registration;
+package com.inventorycheck.service;
 
 
-import com.inventorycheck.userlogin.UserLogin;
-import com.inventorycheck.userlogin.UserLoginRole;
-import com.inventorycheck.userlogin.UserLoginService;
+import com.inventorycheck.bean.RegistrationRequest;
+import com.inventorycheck.constant.UserLoginRole;
+import com.inventorycheck.entity.UserLogin;
+import com.inventorycheck.util.MobileNoValidator;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

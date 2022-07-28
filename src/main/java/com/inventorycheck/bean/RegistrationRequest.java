@@ -1,4 +1,4 @@
-package com.inventorycheck.registration;
+package com.inventorycheck.bean;
 
 
 import lombok.AllArgsConstructor;

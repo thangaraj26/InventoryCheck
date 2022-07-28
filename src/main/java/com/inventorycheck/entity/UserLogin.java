@@ -1,4 +1,5 @@
-package com.inventorycheck.userlogin;
+package com.inventorycheck.entity;
+
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,13 +28,13 @@ public class UserLogin implements UserDetails {
     private String branch;
 
     @Enumerated(EnumType.STRING)
-    private UserLoginRole UserLoginRole;
+    private com.inventorycheck.constant.UserLoginRole UserLoginRole;
 
     private Boolean locked = false;
     private Boolean enabled = true;
 
     public UserLogin( String mobileNo, String password,
-                     String branch, com.inventorycheck.userlogin.UserLoginRole userLoginRole) {
+                     String branch, com.inventorycheck.constant.UserLoginRole userLoginRole) {
         this.mobileNo = mobileNo;
         this.password = password;
         this.branch = branch;

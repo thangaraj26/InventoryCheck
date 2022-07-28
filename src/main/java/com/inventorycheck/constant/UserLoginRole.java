@@ -1,4 +1,4 @@
-package com.inventorycheck.userlogin;
+package com.inventorycheck.constant;
 
 public enum UserLoginRole {
     USER,

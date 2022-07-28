@@ -1,5 +1,7 @@
-package com.inventorycheck.userlogin;
+package com.inventorycheck.service;
 
+import com.inventorycheck.entity.UserLogin;
+import com.inventorycheck.repo.UserLoginRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
